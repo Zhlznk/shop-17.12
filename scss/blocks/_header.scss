@@ -1,0 +1,39 @@
+.header {
+    background-color: $black;
+    min-height: 75px;
+
+    &__link {
+        text-decoration: none;
+        margin: 0 0 0 33px;
+    }
+        
+    &__wrp {
+        display: flex;
+        justify-content: space-between;
+    }
+        
+    &__logo-form-wrp {
+        display: flex;
+        min-height: 75px;
+        align-items: center;
+    }
+        
+    &__search {
+        margin: 0 0 0 41px;
+    }
+        
+    &__menu-link-wrp {
+        display: flex;
+        min-height: 75px;
+        align-items: center;
+    }
+
+    &__menu-btn {
+        border: 1px solid;
+        background-color: transparent;
+    }
+    
+    &__nav {
+        display: none;
+    }    
+}
